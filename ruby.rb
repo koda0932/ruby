@@ -1,7 +1,7 @@
-array = ["today", "is", "sunny"]
-newArray = array.join(' ')
-puts newArray
+def square(num)
+  result = num * num
+  puts "１辺が5センチの正方形の面積は#{result}です"
+end
 
-array2 = "Ruby, Rails, Javascript"
-newArray2 = array2.split(',')
-puts newArray2
+num = 5
+square(num)
