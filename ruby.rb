@@ -1,7 +1,10 @@
-def square(num)
-  result = num * num
-  puts "１辺が5センチの正方形の面積は#{result}です"
-end
+hash = {}
+hash[:name] = "suzuki"
+hash[:height] = 1.6
+hash[:weight] = 60
+hash[:bmi] = (hash[:weight] / hash[:height] ** 2).round(1)
 
-num = 5
-square(num)
+
+hash.each do |key, value|
+  puts "#{key}: #{value}"
+end
