@@ -1,8 +1,13 @@
-str = "is this a pen?"
-
-if str.include?("?")
-  puts "yes, it is."
+def sleep_in(weekday, vacation)
+  if (weekday != true) || (vacation == true)
+    puts "True"
+  else
+    puts "False"
+  end
 end
 
-# ワンライナー
-puts "yes, it is." if str.include?("?")
+
+weekday = true
+vacation = false
+
+sleep_in(weekday,vacation)
