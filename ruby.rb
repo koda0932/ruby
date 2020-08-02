@@ -1,7 +1,7 @@
 def left(moji)
-  puts moji[-2..-1] * 3
+  puts moji.slice!(0, 2)
 end
 
-left("hello")
+left("adkos")
 
-# 'bar'[-1]      # => "r"
+# => ad
