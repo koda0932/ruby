@@ -1,5 +1,5 @@
 def left(moji)
-  puts moji[2..-1] + moji[0..1]
+  puts moji[-2..-1] * 3
 end
 
 left("hello")
