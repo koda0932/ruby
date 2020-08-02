@@ -1,9 +1,7 @@
-def ary(nums)
-  if (nums.include?(1) && nums.include?(2) && nums.include?(3))
-    puts "true"
-  else
-    puts "false"
-  end
+def left(moji)
+  puts moji[2..-1] + moji[0..1]
 end
 
-ary([1, 2, 3])
+left("hello")
+
+# 'bar'[-1]      # => "r"
