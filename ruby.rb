@@ -1,6 +1,9 @@
 def ary(nums)
-  result = nums.count(9)
-  puts result
+  if (nums.include?(1) && nums.include?(2) && nums.include?(3))
+    puts "true"
+  else
+    puts "false"
+  end
 end
 
-ary([1, 4, 5, 9, 7, 9])   #=> 2
+ary([1, 2, 3])
