@@ -1,11 +1,12 @@
-def into(num, outside)
-  if (num >= 1 && num <= 10) || outside == true
+def close(a,b,c)
+  x = (a-b).abs
+  y = (a-c).abs
+  z = (b-c).abs
+  if (x == 1 || y == 1) && (z >= 2)
     puts "true"
   else
     puts "false"
   end
 end
 
-into(11, false)
-
-
+close(4,1,3)
